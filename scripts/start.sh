@@ -20,6 +20,8 @@ docker run --name eschool-mysql \
 
 # building app image, changed!!!
 docker build . -t eschool:1.0
+# docker build . -t eschool:1.1
+# docker build . --no-cache -t eschool:1.3
 
 # starting app container
 docker run --name eschool-backend \
